@@ -127,7 +127,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+/* basic setting */
 *,
 *::before,
 *::after {
@@ -142,4 +142,80 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+body {
+  font-family: "Noto Sans TC", Roboto;
+  line-height: 1.5;
+}
+/* component */
+.nav-bar {
+  width: 492px;
+}
+.btn {
+  padding: 6px 12px;
+  background-color: #aa0601;
+  color: #ffffff;
+}
+/* pages */
+.nav {
+  background-color: #aa0601;
+  color: #ffffff;
+  padding: 25px 0;
+}
+.logo-img {
+  width: 80px;
+}
+.header {
+  padding: 296px 0;
+  background-image: url(./img/home-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #650300;
+  text-align-last: right;
+}
+.banner {
+  padding: 80px 0;
+  background-color: #fbf2f2;
+  text-align: center;
+}
+.banner p {
+  text-align-last: left;
+}
+/* common */
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.aic {
+  align-items: center;
+}
+.tac {
+  text-align: center;
+}
+.fz-64 {
+  font-size: 64px;
+}
+.fz-48 {
+  font-size: 48px;
+}
+.fz-36 {
+  font-size: 36px;
+}
+.fz-24 {
+  font-size: 24px;
+}
+.fz-20 {
+  font-size: 20px;
+}
+.color-650300 {
+  color: #650300;
+}
+.color-aa0601 {
+  color: #aa0601;
 }
