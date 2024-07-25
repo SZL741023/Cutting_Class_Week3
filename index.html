@@ -162,34 +162,107 @@
         <div class="container">
           <h2 class="contact-title fz-h2">聯絡我們</h2>
           <div class="content-input">
-            <p class="contact-content">
+            <p class="contact-content mb-24">
               我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
             </p>
-            <div class="name-input">
-              <p class="name">姓名</p>
-              <input type="text" placeholder="陳小明" class="input-name" />
+            <div class="name-input mb-16">
+              <label class="name">姓名</label>
+              <input
+                type="text"
+                placeholder="陳小明"
+                class="input-name input"
+              />
             </div>
-            <div class="phone-input">
-              <p class="phone">聯絡電話</p>
-              <input type="text" class="input-phone" />
+            <div class="phone-input mb-16">
+              <label class="phone">聯絡電話</label>
+              <input
+                type="text"
+                placeholder="0912-345-678"
+                class="input-phone input"
+              />
             </div>
-            <div class="email-input">
-              <p class="email">電子郵件</p>
-              <input type="text" class="input-email" />
+            <div class="email-input mb-16">
+              <label class="email">電子郵件</label>
+              <input
+                type="text"
+                placeholder="example@email.com"
+                class="input-email input"
+              />
             </div>
-            <div class="feedback-input">
-              <p class="feedback">意見反應</p>
-              <input type="text" class="input-feedback" />
+            <div class="feedback-input mb-16">
+              <label class="feedback">意見反應</label>
+              <textarea
+                class="input-feedback input"
+                placeholder="請輸您的意見"
+                name="feedback"
+                id="feedback"
+              ></textarea>
             </div>
-            <p class="checkbox-input">
-              <input type="checkbox" /><span
-                >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span
+            <div class="checkbox-input mb-48">
+              <input type="checkbox" id="check" class="checkbox" /><label
+                for="check"
+                class="checkbox-label"
+                >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
               >
-            </p>
+            </div>
             <button class="contact-btn" href="#">確認送出</button>
           </div>
         </div>
       </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="info d-flex jcsb">
+            <div class="info-contact-link">
+              <div class="info-link">
+                <ul class="link-list d-flex jcsb aic">
+                  <li class="link"><a href="#">首頁</a></li>
+                  <li class="link"><a href="#">系列鏡框</a></li>
+                  <li class="link"><a href="#">門市據點</a></li>
+                  <li class="link"><a href="#">部落格</a></li>
+                  <li class="link"><a href="#">常見問題</a></li>
+                </ul>
+              </div>
+              <div class="info-contact">
+                <h4 class="h4">
+                  <img
+                    class="info-icon"
+                    src="./img/phone.png"
+                    alt=""
+                  />0800-000-000
+                </h4>
+                <h4 class="h4">
+                  <img
+                    class="info-icon"
+                    src="./img/email.png"
+                    alt=""
+                  />glasses@business.com
+                </h4>
+              </div>
+            </div>
+            <div class="info-social d-flex jcsb">
+              <div class="info-img">
+                <img src="./img/ic-social-fb.png" alt="" class="info-img" />
+              </div>
+              <div class="info-img">
+                <img src="./img/ic_social_ig.png" alt="" class="info-img" />
+              </div>
+              <div class="info-img">
+                <img src="./img/ic_social_line.png" alt="" class="info-img" />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="copy d-flex jcsb">
+            <div class="copy-section mb-8">
+              <p>Copyright © 2020 Glasses.All rights reserved.</p>
+            </div>
+            <ul class="term-list d-flex jcsb">
+              <li class="term mb-8">隱私權政策</li>
+              <li class="term">服務條款</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </body>
   </html>
 </doctype>
