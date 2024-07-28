@@ -202,6 +202,11 @@ body {
   font-size: 64px;
   font-weight: bold;
 }
+@media (max-width: 615px) {
+  .header .h1 {
+    font-size: 58px;
+  }
+}
 .header .serice {
   font-size: 36px;
 }
@@ -456,12 +461,12 @@ body {
   margin-bottom: 48px;
 }
 .content-input {
-  width: 636px;
+  max-width: 636px;
   margin: 0 auto;
 }
 @media (max-width: 992px) {
   .content-input {
-    width: 576px;
+    max-width: 576px;
   }
 }
 @media (max-width: 576px) {
