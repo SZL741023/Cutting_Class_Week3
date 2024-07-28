@@ -144,7 +144,7 @@ img {
   vertical-align: middle;
 }
 body {
-  font-family: "Noto Sans TC", Roboto;
+  font-family: Roboto "Noto Sans TC";
   line-height: 1.5;
 }
 /* component */
