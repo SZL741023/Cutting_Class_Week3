@@ -159,7 +159,7 @@
                     眼鏡品質優良，下次還會想來這邊購買！
                   </p>
                 </div>
-                <p class="date">2021/06/20</p>
+                <time class="date">2021/06/20</time>
               </div>
             </li>
             <li class="blog mb-24 mb-16">
@@ -175,7 +175,7 @@
                     做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
                   </p>
                 </div>
-                <div class="date">2021/04/18</div>
+                <time class="date">2021/04/18</time>
               </div>
             </li>
             <li class="blog mb-16">
@@ -191,7 +191,7 @@
                     謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
                   </p>
                 </div>
-                <div class="date">2020/12/25</div>
+                <time class="date">2020/12/25</time>
               </div>
             </li>
             <li class="blog">
@@ -221,47 +221,52 @@
             <p class="contact-content mb-24">
               我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
             </p>
-            <div class="name-input mb-16">
-              <label class="name">姓名</label>
-              <input
-                type="text"
-                placeholder="陳小明"
-                class="input-name input"
-              />
-            </div>
-            <div class="phone-input mb-16">
-              <label class="phone">聯絡電話</label>
-              <input
-                type="text"
-                placeholder="0912-345-678"
-                class="input-phone input"
-              />
-            </div>
-            <div class="email-input mb-16">
-              <label class="email">電子郵件</label>
-              <input
-                type="text"
-                placeholder="example@email.com"
-                class="input-email input"
-              />
-            </div>
-            <div class="feedback-input mb-16">
-              <label class="feedback">意見反應</label>
-              <textarea
-                class="input-feedback input"
-                placeholder="請輸您的意見"
-                name="feedback"
-                id="feedback"
-              ></textarea>
-            </div>
-            <div class="checkbox-input mb-48">
-              <input type="checkbox" id="check" class="checkbox" /><label
-                for="check"
-                class="checkbox-label"
-                >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
-              >
-            </div>
-            <button class="contact-btn" href="#">確認送出</button>
+            <form action="index.html">
+              <div class="name-input mb-16">
+                <label for="name" class="name">姓名</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="陳小明"
+                  class="input-name input"
+                />
+              </div>
+              <div class="phone-input mb-16">
+                <label for="phone" class="phone">聯絡電話</label>
+                <input
+                  id="phone"
+                  type="text"
+                  placeholder="0912-345-678"
+                  class="input-phone input"
+                />
+              </div>
+              <div class="email-input mb-16">
+                <label for="email" class="email">電子郵件</label>
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="example@email.com"
+                  class="input-email input"
+                />
+              </div>
+              <div class="feedback-input mb-16">
+                <label for="feedback" class="feedback">意見反應</label>
+                <textarea
+                  id="feedback"
+                  class="input-feedback input"
+                  placeholder="請輸您的意見"
+                  name="feedback"
+                  id="feedback"
+                ></textarea>
+              </div>
+              <div class="checkbox-input mb-48">
+                <input type="checkbox" id="check" class="checkbox" />
+                <label for="check" class="checkbox-label"
+                  >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
+                >
+              </div>
+              <button class="contact-btn" href="#">確認送出</button>
+            </form>
           </div>
         </div>
       </div>
@@ -284,14 +289,16 @@
                     class="info-icon"
                     src="./img/phone.png"
                     alt="phone-icon"
-                  />0800-000-000
+                  />
+                  <a href="tel:+886-0800-000-000">0800-000-000</a>
                 </h4>
                 <h4 class="h4">
                   <img
                     class="info-icon"
                     src="./img/email.png"
                     alt="email-icon"
-                  />glasses@business.com
+                  />
+                  <a href="mailto:glasses@business.com">glasses@business.com</a>
                 </h4>
               </div>
             </div>
@@ -325,8 +332,8 @@
               <p>Copyright © 2020 Glasses.All rights reserved.</p>
             </div>
             <ul class="term-list d-flex jcsb">
-              <li class="term mb-8">隱私權政策</li>
-              <li class="term">服務條款</li>
+              <li class="term mb-8"><a href="#">隱私權政策</a></li>
+              <li class="term"><a href="#">服務條款</a></li>
             </ul>
           </div>
         </div>
